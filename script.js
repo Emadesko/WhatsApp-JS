@@ -504,6 +504,19 @@ const users = [
         anciensGroups: [],
         messagesImportants: []
     },
+    {
+        nom: "Vous",
+        etat: "",
+        actu: "",
+        username: "Nour Mouhamad",
+        password: "@1234",
+        tel: "+221 77 299 78 04",
+        photo: "Imgs/nour.jpg",
+        contacts:[],
+        groups: [],
+        anciensGroups: [],
+        messagesImportants: []
+    },
 ];
 
 const connexion = document.querySelector(".login-container");
