@@ -16,9 +16,9 @@ const users = [
         etat: "",
         actu: "Rendre fière maman 🍎❤",
         username: "Emadesko🏀",
-        password: "@1234",
+        password: "1",
         tel: "+221 77 863 22 64",
-        photo: "Imgs/user.jpg",
+        photo: "Imgs/emadesko.jpg",
         contacts:
             [
                 {
@@ -51,6 +51,17 @@ const users = [
                     type: "friend",
                     nom: "Aicha Anna Marie Akonde",
                     tel: "+221 77 014 44 15",
+                    deja: "oui",
+                    messages: [
+                        { text: `<i class="ri-lock-2-line"></i> Les messages et les appels sont chiffrés de bout en bout. Personne en dehors de ces discussions, pas même whatsapp, ne peut les lire ou les écouter. Sélectionner pour en savoir plus.`, date: " ", owner: "App", etat: "bout" },
+                    ],
+                    myNotRead: [
+                    ]
+                },
+                {
+                    type: "friend",
+                    nom: "Beubeuuu 🤭❤️",
+                    tel: "+221 78 531 82 98",
                     deja: "oui",
                     messages: [
                         { text: `<i class="ri-lock-2-line"></i> Les messages et les appels sont chiffrés de bout en bout. Personne en dehors de ces discussions, pas même whatsapp, ne peut les lire ou les écouter. Sélectionner pour en savoir plus.`, date: " ", owner: "App", etat: "bout" },
@@ -154,7 +165,7 @@ const users = [
         etat: "",
         actu: "Occupé(e)",
         username: "HHBA💕🤝",
-        password: "@1234",
+        password: "1",
         tel: "+221 77 306 45 29",
         photo: "Imgs/hhba.jpg",
         contacts:
@@ -206,7 +217,7 @@ const users = [
         etat: "",
         actu: "",
         username: "Nelsam",
-        password: "@1234",
+        password: "1",
         tel: "+221 77 346 18 82",
         photo: "Imgs/nelsam.jpg",
         contacts:
@@ -254,7 +265,7 @@ const users = [
         etat: "",
         actu: "",
         username: "Breukh",
-        password: "@1234",
+        password: "1",
         tel: "+221 77 182 54 14",
         photo: "Imgs/aly.jpg",
         contacts:
@@ -313,7 +324,7 @@ const users = [
         etat: "",
         actu: "",
         username: "Birane Baila Wane",
-        password: "@1234",
+        password: "1",
         tel: "+221 77 766 95 95",
         photo: "Imgs/baila.jpg",
         contacts:
@@ -361,7 +372,7 @@ const users = [
         etat: "",
         actu: "",
         username: "Aicha Anna Marie Akonde",
-        password: "@1234",
+        password: "1",
         tel: "+221 77 014 44 15",
         photo: "Imgs/aicha.jpg",
         contacts:
@@ -446,7 +457,7 @@ const users = [
         etat: "",
         actu: "",
         username: "Opo",
-        password: "@1234",
+        password: "1",
         tel: "+221 78 388 50 99",
         photo: "Imgs/opo.jpg",
         contacts:
@@ -509,10 +520,35 @@ const users = [
         etat: "",
         actu: "",
         username: "Nour Mouhamad",
-        password: "@1234",
+        password: "1",
         tel: "+221 77 299 78 04",
         photo: "Imgs/nour.jpg",
         contacts:[],
+        groups: [],
+        anciensGroups: [],
+        messagesImportants: []
+    },
+    {
+        nom: "Vous",
+        etat: "",
+        actu: "",
+        username: "Gloria",
+        password: "1",
+        tel: "+221 78 531 82 98",
+        photo: "Imgs/gloria.png",
+        contacts:[
+            {
+                type: "friend",
+                nom: "Beubeuuu 🤭❤️",
+                tel: "+221 77 863 22 64",
+                deja: "non",
+                messages: [
+                    { text: `<i class="ri-lock-2-line"></i> Les messages et les appels sont chiffrés de bout en bout. Personne en dehors de ces discussions, pas même whatsapp, ne peut les lire ou les écouter. Sélectionner pour en savoir plus.`, date: " ", owner: "App", etat: "bout" },
+                ],
+                myNotRead: [
+                ]
+            },
+        ],
         groups: [],
         anciensGroups: [],
         messagesImportants: []
