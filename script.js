@@ -541,7 +541,7 @@ const users = [
                 type: "friend",
                 nom: "Beubeuuu 🤭❤️",
                 tel: "+221 77 863 22 64",
-                deja: "non",
+                deja: "oui",
                 messages: [
                     { text: `<i class="ri-lock-2-line"></i> Les messages et les appels sont chiffrés de bout en bout. Personne en dehors de ces discussions, pas même whatsapp, ne peut les lire ou les écouter. Sélectionner pour en savoir plus.`, date: " ", owner: "App", etat: "bout" },
                 ],
